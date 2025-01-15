@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a3026;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+body * {
+  font-family: "Alumni Sans", sans-serif;
+  color: #f5f4f3;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Perfil */
+
+.perfil img {
+  width: 175px;
+  margin-bottom: 16px;
+}
+
+.perfil {
+  text-align: center;
+  padding: 24px;
+  margin-bottom: 48px;
+}
+
+.perfil p {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+/* Links */
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  margin-bottom: 100px;
+}
+
+.links li a {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2rem;
+  font-weight: 400;
+
+  border: 2px solid rgba(229, 219, 179, 0.5);
+  border-radius: 10px;
+}
+
+.links li a:hover {
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid rgba(229, 219, 179, 1);
+  transition: 0.3s;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.footer a {
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: #e5dbb3;
+}
